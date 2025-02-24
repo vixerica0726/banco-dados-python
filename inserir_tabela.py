@@ -5,10 +5,10 @@ import sqlite3  # Importando o módulo sqlite3
 conexao = sqlite3.connect('conectar')
 cursor = conexao.cursor() # Criando um cursor
 
-cursor.execute('INSERT INTO usuarios(id,nome,endereco,email,telefone) VALUES (1, "nathan", "Rua", "erica@gmail.com", 2799336944)')
-cursor.execute('INSERT INTO usuarios(id,nome,endereco,email,telefone) VALUES (5, "davi", "Radd", "erica@gmail.com", 2799336944)')
-cursor.execute('INSERT INTO usuarios(id,nome,endereco,email,telefone) VALUES (4, "Eric", "Rgda", "erica@gmail.com", 2799336944)')
-cursor.execute('INSERT INTO usuarios(id,nome,endereco,email,telefone) VALUES (6, "allan", "Rudcfa", "erica@gmail.com", 2799336944)')
+cursor.execute('INSERT INTO usuarios(id,nome,endereco,email,telefone) VALUES (1, "nathan", "Rua t", "erica@gmail.com", 2799336944)')
+cursor.execute('INSERT INTO usuarios(id,nome,endereco,email,telefone) VALUES (4, "davi", "Rua l", "ica@gmail.com", 27474524852)')
+cursor.execute('INSERT INTO usuarios(id,nome,endereco,email,telefone) VALUES (3, "Eric", "Rua e", "er@gmail.com", 279934545414)')
+cursor.execute('INSERT INTO usuarios(id,nome,endereco,email,telefone) VALUES (7, "allan", "Rua r", "eri@gmail.com", 254416565)')
 
 
 
