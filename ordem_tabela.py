@@ -22,6 +22,8 @@ dados = cursor.execute('SELECT DISTINCT endereco FROM usuarios;')
 for usuarios in dados: 
     print(usuarios)
 
+
+
 # Salvando as alterações
 conexao.commit()
 conexao.close()  # Fechando a conexão
